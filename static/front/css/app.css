@@ -10686,6 +10686,7 @@ body {
     padding: 0;
     list-style: none;
     color: #fff;
+    padding: 50px;
 }
 
 .c-footer-nav__link {
@@ -10719,16 +10720,23 @@ body {
 
 .c-footer-social__list {
     list-style: none;
-    padding: 0;
+    padding: 20px;
     margin: 0 -15px;
     display: flex;
-    align-items: center
+    align-items: center;
+    
 }
 
 .c-footer-social__link {
     padding: 20px;
     display: flex;
     color: currentColor
+}
+
+.c-footer-social__link1 {
+    padding: 20px;
+    display: flex;
+    color: #fff;
 }
 
 .c-footer-social__link:hover {
