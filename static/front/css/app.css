@@ -10841,7 +10841,8 @@ body {
     margin: 0 auto;
     padding: 140px 80px 160px;
     border-left: 1px solid rgba(0,0,0,.05);
-    border-right: 1px solid rgba(0,0,0,.05)
+    border-right: 1px solid rgba(0,0,0,.05);
+    color: #fff;
 }
 
 @media (max-width: 1379.98px) {
@@ -10961,7 +10962,7 @@ body {
 .c-page-nav__list {
     list-style: none;
     margin: 0;
-    padding: 20px 0 0;
+    padding: 60px 0 0;
     color: #fff;
 }
 
@@ -11983,19 +11984,19 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    overflow: hidden
+
 }
 
-.c-home-top__video video {
+.c-home-top__video iframe {
     position: absolute;
-    left: 50%;
     top: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    width: 120%;
+    height: 130%;
     min-width: 100%;
     min-height: 100%;
-    height: auto;
-    width: auto
+    transform: translate(-50%, -50%); /* Центрування */
+
 }
 
 .c-home-info {
@@ -12659,6 +12660,8 @@ body {
     }
 }
 
+
+
 .c-about-bg {
     position: absolute;
     left: 50%;
@@ -13206,7 +13209,8 @@ body {
     display: block;
     font-size: 14px;
     line-height: 20px;
-    color: rgba(34,34,34,.7)
+    color: rgba(34,34,34,.7);
+    color: #fff;
 }
 
 .c-about-emblem {
