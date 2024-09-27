@@ -114,6 +114,26 @@ body {
     outline: 0!important
 }
 
+.form-container {
+    width: 100%;
+    max-width: 940px; /* Максимальна ширина для iframe */
+    min-height: 100%; /* Висота контейнера */
+    display: flex;
+    justify-content: center; /* Центрування по горизонталі */
+    margin-top: -130px;
+    margin-bottom: -590px;
+}
+
+iframe1 {
+    width: 100%;
+    height: 100%; /* Висота iframe */
+    border: none; /* Прибирає рамку */
+
+    
+
+
+}
+
 hr {
     box-sizing: content-box;
     height: 0;
