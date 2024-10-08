@@ -1,4 +1,7 @@
-
+/* Твій існуючий CSS код без змін */
+h1 {
+    text-align: center;
+}
 
 form {
     background-color: #222; /* Темніший фон для форми */
@@ -10,82 +13,81 @@ form {
 .label {
     font-size: 16px;
     margin-bottom: 5px;
-    display: block; /* Додаємо display: block, щоб текст мітки був на новому рядку */
-    text-align: center; /* Центрує текст мітки */
+    display: block;
+    text-align: center;
 }
 
 .input-container {
-    text-align: center; /* Центрує текст контейнера */
-    margin-bottom: 15px; /* Відступ між полями вводу */
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 input[type="text"] {
-    width: 50%; /* Ширина поля вводу */
-    padding: 10px; /* Внутрішні відступи */
-    border: 1px solid #ccc; /* Обводка */
-    border-radius: 5px; /* Закруглені кути */
-    text-align: center; /* Центрування тексту всередині поля вводу */
-    background-color: #333; /* Темний фон для полів вводу */
-    color: white; /* Білий текст в полях вводу */
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #333;
+    color: white;
 }
 
 .question-container {
-    margin: 20px 0; /* Відступ між питаннями та формою */
-    padding: 20px; /* Внутрішні відступи для контейнера з питаннями */
-    background-color: #222; /* Темніший фон для контейнера з питаннями */
-    border-radius: 10px; /* Закруглені кути для контейнера з питаннями */
-    margin-left: 20%; /* Відступ зліва */
-    margin-right: 20%; /* Відступ справа */
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .question {
     margin-bottom: 15px;
-    font-weight: bold; /* Зробити текст питань жирним */
+    font-weight: bold;
 }
 
 .button-container {
-    text-align: center; /* Центрує вміст по горизонталі */
-    margin-top: 20px; /* Відступ зверху для кнопки */
+    text-align: center;
+    margin-top: 20px;
 }
 
 button {
-    background-color: #124ed0; /* Синій фон для кнопки */
-    color: white; /* Білий текст кнопки */
-    padding: 10px 15px; /* Внутрішні відступи: 10px зверху і знизу, 15px зліва і справа */
-    border: none; /* Без обводки */
-    border-radius: 5px; /* Закруглені кути */
-    cursor: pointer; /* Зміна курсору при наведенні */
-    font-size: 16px; /* Розмір шрифту */
-    font-weight: bold; /* Жирний шрифт для тексту кнопки */
-    text-transform: uppercase; /* Усі літери великі */
-    transition: background-color 0.3s; /* Анімація зміни кольору */
+    background-color: #124ed0;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0f3f9c; /* Темніший відтінок синього при наведенні */
+    background-color: #0f3f9c;
 }
 
 .answer-option {
-    display: block; /* Відображення відповідей як блочні елементи */
-    margin: 10px 0; /* Відступи між варіантами відповіді */
-    color: white; /* Білий текст для варіантів відповіді */
+    display: block;
+    margin: 10px 0;
+    color: white;
 }
 
-/* Стилізація радіо-кнопок */
 input[type="radio"] {
-    appearance: none; /* Скидаємо стандартний стиль */
-    width: 20px; /* Ширина кружечка */
-    height: 20px; /* Висота кружечка */
-    border-radius: 50%; /* Кружечок */
-    border: 2px solid #124ed0; /* Обводка кружечка */
-    outline: none; /* Без контурів */
-    cursor: pointer; /* Зміна курсору при наведенні */
-    margin-right: 10px; /* Відступ між кружечком і текстом */
-    position: relative; /* Позиціюємо кружечок */
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #124ed0;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
 }
 
 input[type="radio"]:checked {
-    background-color: #124ed0; /* Зміна кольору фону при виборі */
+    background-color: #124ed0;
 }
 
 /* Стилі для модального вікна */
