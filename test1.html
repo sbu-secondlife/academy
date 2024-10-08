@@ -2430,17 +2430,17 @@ const allQuestions = [
 
 
 // // Заборона відкриття контекстного меню
-// document.addEventListener('contextmenu', function(event) {
-//     event.preventDefault();
-// });
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
 
-// // Заборона відкриття інструментів розробника
-// document.addEventListener('keydown', function(event) {
-//     // Перевірка на F12, Ctrl+Shift+I, Ctrl+Shift+C
-//     if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'C'))) {
-//         event.preventDefault();
-//     }
-// });
+// Заборона відкриття інструментів розробника
+document.addEventListener('keydown', function(event) {
+    // Перевірка на F12, Ctrl+Shift+I, Ctrl+Shift+C
+    if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'C'))) {
+        event.preventDefault();
+    }
+});
 
 
 
