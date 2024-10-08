@@ -1,4 +1,4 @@
-/* Твій існуючий CSS код без змін */
+
 h1 {
     text-align: center;
 }
@@ -13,102 +13,136 @@ form {
 .label {
     font-size: 16px;
     margin-bottom: 5px;
-    display: block;
-    text-align: center;
+    display: block; /* Додаємо display: block, щоб текст мітки був на новому рядку */
+    text-align: center; /* Центрує текст мітки */
 }
 
 .input-container {
-    text-align: center;
-    margin-bottom: 15px;
+    text-align: center; /* Центрує текст контейнера */
+    margin-bottom: 15px; /* Відступ між полями вводу */
 }
 
 input[type="text"] {
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #333;
-    color: white;
+    width: 50%; /* Ширина поля вводу */
+    padding: 10px; /* Внутрішні відступи */
+    border: 1px solid #ccc; /* Обводка */
+    border-radius: 5px; /* Закруглені кути */
+    text-align: center; /* Центрування тексту всередині поля вводу */
+    background-color: #333; /* Темний фон для полів вводу */
+    color: white; /* Білий текст в полях вводу */
 }
 
 .question-container {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #222;
-    border-radius: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 20px 0; /* Відступ між питаннями та формою */
+    padding: 20px; /* Внутрішні відступи для контейнера з питаннями */
+    background-color: #222; /* Темніший фон для контейнера з питаннями */
+    border-radius: 10px; /* Закруглені кути для контейнера з питаннями */
+    margin-left: 20%; /* Відступ зліва */
+    margin-right: 20%; /* Відступ справа */
 }
 
 .question {
     margin-bottom: 15px;
-    font-weight: bold;
+    font-weight: bold; /* Зробити текст питань жирним */
 }
 
 .button-container {
-    text-align: center;
-    margin-top: 20px;
+    text-align: center; /* Центрує вміст по горизонталі */
+    margin-top: 20px; /* Відступ зверху для кнопки */
 }
 
 button {
-    background-color: #124ed0;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: background-color 0.3s;
+    background-color: #124ed0; /* Синій фон для кнопки */
+    color: white; /* Білий текст кнопки */
+    padding: 10px 15px; /* Внутрішні відступи: 10px зверху і знизу, 15px зліва і справа */
+    border: none; /* Без обводки */
+    border-radius: 5px; /* Закруглені кути */
+    cursor: pointer; /* Зміна курсору при наведенні */
+    font-size: 16px; /* Розмір шрифту */
+    font-weight: bold; /* Жирний шрифт для тексту кнопки */
+    text-transform: uppercase; /* Усі літери великі */
+    transition: background-color 0.3s; /* Анімація зміни кольору */
 }
 
 button:hover {
-    background-color: #0f3f9c;
+    background-color: #0f3f9c; /* Темніший відтінок синього при наведенні */
 }
 
 .answer-option {
-    display: block;
-    margin: 10px 0;
-    color: white;
+    display: block; /* Відображення відповідей як блочні елементи */
+    margin: 10px 0; /* Відступи між варіантами відповіді */
+    color: white; /* Білий текст для варіантів відповіді */
 }
 
+/* Стилізація радіо-кнопок */
 input[type="radio"] {
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid #124ed0;
-    outline: none;
-    cursor: pointer;
-    margin-right: 10px;
-    position: relative;
+    appearance: none; /* Скидаємо стандартний стиль */
+    width: 20px; /* Ширина кружечка */
+    height: 20px; /* Висота кружечка */
+    border-radius: 50%; /* Кружечок */
+    border: 2px solid #124ed0; /* Обводка кружечка */
+    outline: none; /* Без контурів */
+    cursor: pointer; /* Зміна курсору при наведенні */
+    margin-right: 10px; /* Відступ між кружечком і текстом */
+    position: relative; /* Позиціюємо кружечок */
 }
 
 input[type="radio"]:checked {
-    background-color: #124ed0;
+    background-color: #124ed0; /* Зміна кольору фону при виборі */
 }
 
-/* Стилі для модального вікна */
+/* Модальне вікно */
 #overlay {
+    display: none; /* Спочатку приховане */
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
-    display: none;
 }
 
 #modal {
+    display: none; /* Спочатку приховане */
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #333;
-    color: white;
-    padding: 20px;
+    background: white;
+    color: black;
+    padding: 10px;
     border-radius: 10px;
-    display: none;
+    z-index: 1000;
 }
+/* Стилі для модального вікна */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1000;
+    width: 80%; /* Зробити модальне вікно ширше */
+    max-width: 500px; /* Максимальна ширина */
+    text-align: center; /* Центрування тексту */
+}
+
+
+
+/* Вирівнювання тексту по центру */
+.modal-content h2,
+.modal-content p {
+    text-align: center; /* Центрування тексту */
+    margin: 20px 0; /* Відступи між рядками тексту */
+}
+
+
+.timer {
+    text-align: center; /* Центрує текст */
+    font-size: 20px; /* Розмір шрифту */
+    margin-bottom: 20px; /* Відступ знизу */
+    color: white; /* Білий текст */
+}
+
