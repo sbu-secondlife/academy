@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Тест на тему доступу до територій</h1>
+<form id="quizForm" action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST">
+    <h1>Тест на знання</h1>
+
+    <div class="input-container">
+        <label for="name" class="label"></label>
+        <input type="text" id="name" name="name" required placeholder="Введіть ім'я">
+    </div>
+    <div class="input-container">
+        <label for="surname" class="label"></label>
+        <input type="text" id="surname" name="surname" required placeholder="Введіть прізвище">
+    </div>
+    
+<div class="question-container">
+    <div class="question">Яке питання?</div>
+    <label class="answer-option">
+        <input type="radio" name="question1" value="a"> Варіант A
+    </label>
+    <label class="answer-option">
+        <input type="radio" name="question1" value="b"> Варіант B
+    </label>
+    <label class="answer-option">
+        <input type="radio" name="question1" value="c"> Варіант C
+    </label>
+    <label class="answer-option">
+        <input type="radio" name="question1" value="d"> Варіант D
+    </label>
+</div>
+
+
+    <!-- Додайте інші питання тут у подібному форматі -->
+
+    <div class="button-container">
+        <button type="submit">Відправити результати</button>
+    </div>
+</form>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
