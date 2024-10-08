@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="uk">
   <head>
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
 
     <meta name="description" content="Ми — Державна установа Служби Безпеки SecondLife, що забезпечує первинну професійну підготовку поліцейських, яких вперше прийнято на службу до поліції, підвищення кваліфікації, а також окремі форми службової підготовки працівників силових структур.">
 
-    
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="test/stylestazu.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -1973,11 +1973,14 @@
                                                                 <li class="c-header-nav__item ">
                 <a href="index.html" class="c-header-nav__link">Головна</a>
               </li>
-                          <li class="c-header-nav__item  is-active">
+                          <li class="c-header-nav__item  ">
                 <a href="about.html" class="c-header-nav__link">Про Академію</a>
               </li>
                           <li class="c-header-nav__item  ">
                 <a href="listeners.html" class="c-header-nav__link">Кандидатам</a>
+              </li>
+                                        <li class="c-header-nav__item is-active ">
+                <a href="#" class="c-header-nav__link">Іспит</a>
               </li>
 <!--                           <li class="c-header-nav__item ">
                 <a href="news.html" class="c-header-nav__link">Новини</a>
@@ -1988,21 +1991,14 @@
                       </ul>
         </nav>
 
-        <div class="c-header-btn">
-          <a href="https://nabir.np.gov.ua/index.php?r=recruitment/index" rel="noopener" target="_blank" class="btn btn-primary btn-sm">Подати документи</a>
-        </div>
+<!--         <div class="c-header-btn">
+          <a href="/join.html" rel="noopener" target="_blank" class="btn btn-primary btn-sm">Подати документи</a>
+        </div> -->
       </div>
 
       <div class="c-header-right">
         <div class="c-header-social">
-<!--           <ul class="c-header-social__list">
-                          <li class="c-header-social__item">
-                <a href="https://www.facebook.com/academypatrolpolice/" class="c-header-social__link">facebook</a>
-              </li>
-                          <li class="c-header-social__item">
-                <a href="https://twitter.com/PoliceAcademy17" class="c-header-social__link">twitter</a>
-              </li>
-                      </ul> -->
+
         </div>
 
         <div class="c-header-languages">
@@ -2028,35 +2024,23 @@
     <div class="c-menu-wrap">
       <nav class="c-menu-nav">
         <ul class="c-menu-nav__list">
-                      <li class="c-menu-nav__item is-active">
+                                                <li class="c-header-nav__item ">
+                <a href="/" class="c-header-nav__link">Головна</a>
+              </li>
+                      <li class="c-menu-nav__item ">
               <a href="about.html" class="c-menu-nav__link">Про Академію</a>
             </li>
                       <li class="c-menu-nav__item ">
               <a href="listeners.html" class="c-menu-nav__link">Кандидатам</a>
             </li>
-                      <li class="c-menu-nav__item ">
-              <a href="news.html" class="c-menu-nav__link">Новини</a>
-            </li>
-                      <li class="c-menu-nav__item ">
-              <a href="contacts.html" class="c-menu-nav__link">Контакти</a>
-            </li>
           
-          <li class="c-menu-nav__item c-menu-nav__btn">
-            <a href="https://nabir.np.gov.ua/index.php?r=recruitment/index" rel="noopener" target="_blank" class="btn btn-primary btn-sm">Подати документи</a>
-          </li>
+
         </ul>
       </nav>
 
       <div class="c-menu-footer">
         <div class="c-menu-social">
-<!--           <ul class="c-menu-social__list">
-                          <li class="c-menu-social__item">
-                <a href="https://www.facebook.com/academypatrolpolice/" class="c-menu-social__link"><span class="c-menu-social__icon"><svg width="13" height="13" viewbox="0 0 13 13" xmlns="http://www.w3.org/2000/svg"><path d="M12.25 1.309V12.19a.68.68 0 0 1-.191.479.643.643 0 0 1-.493.205H8.45V8.117h1.586l.246-1.832H8.45V5.11c0-.31.055-.528.164-.656.146-.164.392-.246.739-.246h.984V2.539a15.405 15.405 0 0 0-1.422-.055c-.71 0-1.285.21-1.723.63-.437.419-.656 1.02-.656 1.804v1.367H4.95v1.832h1.586v4.758H.684a.643.643 0 0 1-.493-.205A.68.68 0 0 1 0 12.19V1.31c0-.2.064-.365.191-.493A.666.666 0 0 1 .684.625h10.882a.68.68 0 0 1 .479.191.643.643 0 0 1 .205.493z" fill="currentColor" fill-rule="evenodd"></path></svg></span><span class="c-menu-social__text">facebook</span></a>
-              </li>
-                          <li class="c-menu-social__item">
-                <a href="https://twitter.com/PoliceAcademy17" class="c-menu-social__link"><span class="c-menu-social__icon"><svg width="14" height="12" viewbox="0 0 14 12" xmlns="http://www.w3.org/2000/svg"><path d="M12.55 2.906c.019.073.028.192.028.356 0 1.312-.319 2.58-.957 3.8-.656 1.295-1.577 2.325-2.762 3.09-1.294.857-2.78 1.285-4.457 1.285A7.966 7.966 0 0 1 0 10.152c.2.019.428.028.684.028 1.33 0 2.524-.41 3.582-1.23a2.67 2.67 0 0 1-1.682-.561 2.855 2.855 0 0 1-.998-1.409c.182.019.355.028.52.028.255 0 .51-.028.765-.082a2.893 2.893 0 0 1-1.64-1.012A2.753 2.753 0 0 1 .573 4.11v-.054c.401.237.83.364 1.285.383a3.185 3.185 0 0 1-.93-1.04 2.758 2.758 0 0 1-.355-1.38c0-.502.137-.98.41-1.436a7.917 7.917 0 0 0 2.612 2.133c1.03.529 2.128.82 3.295.875a3.985 3.985 0 0 1-.055-.656c0-.51.128-.99.383-1.436A2.81 2.81 0 0 1 8.258.445 2.773 2.773 0 0 1 9.68.063c.419 0 .806.082 1.162.246.355.164.67.382.943.656A5.841 5.841 0 0 0 13.617.28a2.85 2.85 0 0 1-1.258 1.586A6.168 6.168 0 0 0 14 1.402a6.311 6.311 0 0 1-1.45 1.504z" fill="currentColor" fill-rule="evenodd"></path></svg></span><span class="c-menu-social__text">twitter</span></a>
-              </li>
-                      </ul> -->
+
         </div>
 
         <div class="c-menu-languages">
@@ -2067,7 +2051,7 @@
     </div>
   </div>
 </div>
-<div class="o-box">
+<!-- <div class="o-box">
       <div class="c-page">
         <div class="c-page-sidebar t-left" data-sticky-container="">
           <div class="c-page-nav js-sticky">
@@ -2080,39 +2064,26 @@
                 <a href="#goal" class="c-page-nav__link js-scroll-to" data-target="#goal">Основна мета</a>
             </li>
               </ul>
-</div>
+</div> -->
 </div>
 
         <div class="c-page-main">
           
-<h1>Тест на тему</h1>
-<p>Час на виконання: <span id="time">07:00</span> хвилин</p>
+<h4 class="timer">Екзамен на знання закону про ТАЗУ</h4>
+
 
 <form id="quizForm">
+
+  <div id="timer" class="timer">Час на виконання тесту: <span id="time">5:00</span></div>
     <div class="input-container">
-        <label for="name" class="label">Ім'я:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" placeholder="Ім'я" required>
     </div>
     <div class="input-container">
-        <label for="surname" class="label">Прізвище:</label>
-        <input type="text" id="surname" name="surname" required>
+        <input type="text" id="surname" name="surname" placeholder="Прізвище" required>
     </div>
 
-    <div class="question-container">
-        <div class="question">Питання 1: Яке питання?</div>
-        <label class="answer-option"><input type="radio" name="question1" value="a" required> Варіант A</label>
-        <label class="answer-option"><input type="radio" name="question1" value="b"> Варіант B</label>
-        <label class="answer-option"><input type="radio" name="question1" value="c"> Варіант C</label>
-        <label class="answer-option"><input type="radio" name="question1" value="d"> Варіант D</label>
-    </div>
-
-    <div class="question-container">
-        <div class="question">Питання 2: Яке питання?</div>
-        <label class="answer-option"><input type="radio" name="question2" value="a" required> Варіант A</label>
-        <label class="answer-option"><input type="radio" name="question2" value="b"> Варіант B</label>
-        <label class="answer-option"><input type="radio" name="question2" value="c"> Варіант C</label>
-        <label class="answer-option"><input type="radio" name="question2" value="d"> Варіант D</label>
-    </div>
+    <!-- Питання будуть додані сюди через JavaScript -->
+    <div id="questions-container"></div>
 
     <div class="button-container">
         <button type="submit">Відправити результати</button>
@@ -2120,78 +2091,363 @@
 </form>
 
 <!-- Модальне вікно для результату -->
-<div id="overlay"></div>
-<div id="modal">
-    <h3>Результати тестування</h3>
-    <p id="modal-content"></p>
-    <button id="closeModal">Закрити</button>
+<div id="overlay" class="overlay" style="display: none;"></div>
+<div id="modal" class="modal" style="display: none;">
+    <div id="modal-content" class="modal-content"></div>
 </div>
+
 
 <script type="text/javascript">
   
-window.onload = function () {
-    const sevenMinutes = 60 * 7;
-    const display = document.querySelector('#time');
-    startTimer(sevenMinutes, display);
-};
+document.addEventListener('DOMContentLoaded', function() {
+const allQuestions = [
+    { 
+        question: "Яка територія належить до закритого доступу?", 
+        answers: [
+            'Фойє будівлі суду.', 
+            'Внутрішня частина Форту-Занкудо.', 
+            'Задня парковка лікарні.', 
+            'Хол міської лікарні.'
+        ], 
+        correct: 'Внутрішня частина Форту-Занкудо.' 
+    },
+    { 
+        question: "Хто має найвищий рівень допуску до територій з регульованим доступом?", 
+        answers: [
+            'Головний лікар обласної лікарні.', 
+            'Президент України.', 
+            'Головний прокурор.', 
+            'Суддя.'
+        ], 
+        correct: 'Президент України.' 
+    },
+    { 
+        question: "Що можуть зробити працівники державного органу, якщо особа незаконно проникла на територію із закритим доступом?", 
+        answers: [
+            'Затримати особу та негайно передати її Національній поліції.', 
+            'Нічого не робити.', 
+            'Виписати штраф у розмірі 20.000 гривень.', 
+            'Застосувати фізичну силу для вигнання з території.'
+        ], 
+        correct: 'Затримати особу та негайно передати її Національній поліції.' 
+    },
+    { 
+        question: "Що передбачає урядовий рівень допуску?", 
+        answers: [
+            'Безперешкодний доступ до всіх будівель.', 
+            'Доступ до територій підконтрольних державних органів, що підпорядковуються відповідному міністерству.', 
+            'Тимчасовий доступ громадянам.', 
+            'Доступ лише до ізоляторів тимчасового тримання.'
+        ], 
+        correct: 'Доступ до територій підконтрольних державних органів, що підпорядковуються відповідному міністерству.' 
+    },
+    { 
+        question: "До якого типу належить територія з обмеженим доступом?", 
+        answers: [
+            'Територія, де постійно перебувають військові.', 
+            'Територія, на яку заборонено проникати будь-яким особам.', 
+            'Територія, проникнення на яку несе незначні ризики та не загрожує національній безпеці.', 
+            'Територія, доступ до якої відкритий для всіх громадян.'
+        ], 
+        correct: 'Територія, проникнення на яку несе незначні ризики та не загрожує національній безпеці.' 
+    },
+    { 
+        question: "Яка будівля належить до територій із закритим доступом?", 
+        answers: [
+            'Хол будівлі суду.', 
+            'Служба безпеки України, окрім холу та загородженої парковки.', 
+            'Парковка міської лікарні.', 
+            'Хол міської лікарні.'
+        ], 
+        correct: 'Служба безпеки України, окрім холу та загородженої парковки.' 
+    },
+    { 
+        question: "Що повинні зробити працівники державного органу, якщо особа незаконно проникла на територію з обмеженим доступом?", 
+        answers: [
+            'Негайно затримати особу та передати Національній поліції.', 
+            'Повідомити особу про незаконне перебування та вимагати покинути територію.', 
+            'Виписати штраф та дозволити залишитися на території.', 
+            'Застосувати фізичну силу без попередження.'
+        ], 
+        correct: 'Повідомити особу про незаконне перебування та вимагати покинути територію.' 
+    },
+    { 
+        question: "Хто може отримати гостьовий допуск до території з регульованим доступом?", 
+        answers: [
+            'Громадяни, яким тимчасово видається дозвіл працівниками відповідного державного органу.', 
+            'Президент України.', 
+            'Працівники правоохоронних органів.', 
+            'Генеральний прокурор України.'
+        ], 
+        correct: 'Громадяни, яким тимчасово видається дозвіл працівниками відповідного державного органу.' 
+    },
+    { 
+        question: "Що відбувається, якщо особа вдруге незаконно проникає на територію з обмеженим доступом після попереднього вигнання?", 
+        answers: [
+            'Її можуть затримати та передати поліції.', 
+            'Її випускають без наслідків.', 
+            'Вона отримує тимчасовий допуск.', 
+            'Її штрафують на 10 000 гривень.'
+        ], 
+        correct: 'Її можуть затримати та передати поліції.' 
+    },
+    { 
+        question: "Хто має право безперешкодного доступу до Ізоляторів Тимчасового Тримання?", 
+        answers: [
+            'Адвокати.', 
+            'Судді.', 
+            'Державні охоронці.', 
+            'Мери міст.'
+        ], 
+        correct: 'Адвокати.' 
+    },
+    { 
+        question: "Який документ визначає порядок допуску адвокатів до Ізоляторів Тимчасового Тримання?", 
+        answers: [
+            'Конституція України.', 
+            'Наказ Генерального адвоката України та Міністра внутрішніх справ.', 
+            'Закон України про адвокатуру.', 
+            'Наказ Генерального прокурора.'
+        ], 
+        correct: 'Наказ Генерального адвоката України та Міністра внутрішніх справ.' 
+    },
+    { 
+        question: "Що може статися з особою, яка незаконно проникла на територію з обмеженим доступом і відмовилася її покинути?", 
+        answers: [
+            'Її пропустять на територію з гостьовим допуском.', 
+            'Вона буде оштрафована на 20 000 гривень.', 
+            'Вона отримає попередження.', 
+            'Її затримають та відправлять до суду.'
+        ], 
+        correct: 'Вона буде оштрафована на 20 000 гривень.' 
+    },
+    { 
+        question: "Хто з посадовців має право на найвищий рівень допуску до територій з регульованим доступом?", 
+        answers: [
+            'Генеральний прокурор.', 
+            'Президент України, Прем`єр-міністр України, Голова Верховної Ради.', 
+            'Керівники міністерств та відомств.', 
+            'Міський голова.'
+        ], 
+        correct: 'Президент України, Прем`єр-міністр України, Голова Верховної Ради.' 
+    },
+    { 
+        question: "Що таке територія із закритим доступом?", 
+        answers: [
+            'Територія, незаконне проникнення на яку несе серйозну загрозу національній безпеці України.', 
+            'Територія, де дозволено перебування звичайних громадян.', 
+            'Територія, яка охороняється місцевою поліцією.', 
+            'Територія, на яку доступ мають лише іноземні громадяни.'
+        ], 
+        correct: 'Територія, незаконне проникнення на яку несе серйозну загрозу національній безпеці України.' 
+    },
+    { 
+        question: "Що можуть робити працівники державних органів на території з обмеженим доступом, якщо особа відмовляється її покинути?", 
+        answers: [
+            'Вони можуть викликати свідків.', 
+            'Вони можуть силоміць вивести її за межі території.', 
+            'Вони мають негайно затримати цю особу.', 
+            'Вони повинні надіслати письмове повідомлення до поліції.'
+        ], 
+        correct: 'Вони можуть силоміць вивести її за межі території.' 
+    },
+    { 
+        question: "Яка з наведених територій є територією з обмеженим доступом?", 
+        answers: [
+            'Внутрішня частина Форту-Занкудо.', 
+            'Зовнішня частина Форту-Занкудо (50 метрів від загородження).', 
+            'Кабінет керівника Служби безпеки України.', 
+            'Рецепція будівлі міської ради.'
+        ], 
+        correct: 'Внутрішня частина Форту-Занкудо.' 
+    },
+    { 
+        question: "Хто має право затримати особу, яка незаконно проникла на територію із закритим доступом?", 
+        answers: [
+            'Співробітники приватних охоронних фірм.', 
+            'Лише Національна гвардія України.', 
+            'Місцева поліція.', 
+            'Працівники державного органу, якому належить територія.'
+        ], 
+        correct: 'Працівники державного органу, якому належить територія.' 
+    },
+    { 
+        question: "Що означає гостьовий допуск?", 
+        answers: [
+            'Тимчасовий дозвіл громадянам, що не мають інших допусків, на перебування на території з регульованим доступом.', 
+            'Постійний доступ для високопосадовців.', 
+            'Доступ для співробітників урядових міністерств.', 
+            'Доступ для журналістів під час прес-конференцій.'
+        ], 
+        correct: 'Тимчасовий дозвіл громадянам, що не мають інших допусків, на перебування на території з регульованим доступом.' 
+    },
+    { 
+        question: "Які наслідки передбачає незаконне проникнення на територію із закритим доступом?", 
+        answers: [
+            'Накладання штрафу в розмірі 20 000 гривень.', 
+            'Ступінь тяжкості злочину - 5 (РІВЕНЬ РОЗШУКУ 3).', 
+            'Ступінь тяжкості злочину - 3 (РІВЕНЬ РОЗШУКУ 2).', 
+            'Ступінь тяжкості злочину - 2 (РІВЕНЬ РОЗШУКУ 1).'
+        ], 
+        correct: 'Ступінь тяжкості злочину - 5 (РІВЕНЬ РОЗШУКУ 3).' 
+    },
+    { 
+        question: "Хто має право видавати тимчасовий допуск до територій з регульованим доступом?", 
+        answers: [
+            'Працівники поліції.', 
+            'Лише керівники міністерств.', 
+            'Лише Президент України.', 
+            'Особи з найвищим рівнем допуску, за винятком Генерального прокурора.'
+        ], 
+        correct: 'Особи з найвищим рівнем допуску, за винятком Генерального прокурора.' 
+    },
+    { 
+        question: "Як має діяти працівник державного органу, якщо особа незаконно проникла на територію із закритим доступом?", 
+        answers: [
+            'Повідомити особу про незаконне перебування та вимагати покинути територію.', 
+            'Негайно затримати та передати найближчому органу Національної поліції.', 
+            'Спочатку викликати адвоката для пояснень.', 
+            'Виписати штраф на місці події.'
+        ], 
+        correct: 'Негайно затримати та передати найближчому органу Національної поліції.' 
+    },
+    { 
+        question: "Хто з працівників має право на службовий допуск до територій з регульованим доступом?", 
+        answers: [
+            'Лише військові.', 
+            'Журналісти та представники ЗМІ.', 
+            'Усі громадяни України.', 
+            'Працівники державних органів, яким належить ця територія.'
+        ], 
+        correct: 'Працівники державних органів, яким належить ця територія.' 
+    },
+    { 
+        question: "Що визначає найвищий рівень допуску?", 
+        answers: [
+            'Можливість вищій посадовій особі безперешкодно заходити на будь-яку територію з регульованим доступом у будь-який час доби.', 
+            'Право доступу лише до територій із закритим доступом.', 
+            'Право лише на тимчасовий доступ.', 
+            'Обмежений доступ лише до будівель уряду.'
+        ], 
+        correct: 'Можливість вищій посадовій особі безперешкодно заходити на будь-яку територію з регульованим доступом у будь-який час доби.' 
+    }
+];
 
-function startTimer(duration, display) {
-    let timer = duration, minutes, seconds;
-    const interval = setInterval(function () {
-        minutes = Math.floor(timer / 60);
-        seconds = Math.floor(timer % 60);
 
-        minutes = minutes < 10 ? '0' + minutes : minutes;
-        seconds = seconds < 10 ? '0' + seconds : seconds;
 
-        display.textContent = minutes + ':' + seconds;
+    const numberOfQuestions = 15; // Скільки питань показати
+    const selectedQuestions = getRandomQuestions(allQuestions, numberOfQuestions);
 
-        if (--timer < 0) {
-            clearInterval(interval);
-            document.getElementById('quizForm').dispatchEvent(new Event('submit'));
-        }
-    }, 1000);
-}
+    const questionsContainer = document.getElementById('questions-container');
 
-document.getElementById('quizForm').addEventListener('submit', function(event) {
-    event.preventDefault();  // Запобігаємо оновленню сторінки
+    // Додаємо питання у форму
+    selectedQuestions.forEach((q, index) => {
+        const questionContainer = document.createElement('div');
+        questionContainer.className = 'question-container';
 
-    // Отримання даних користувача
-    const name = document.getElementById('name').value;
-    const surname = document.getElementById('surname').value;
+        const questionTitle = document.createElement('div');
+        questionTitle.className = 'question';
+        questionTitle.textContent = `${index + 1}. ${q.question}`;
+        questionContainer.appendChild(questionTitle);
 
-    // Визначення правильних відповідей
-    const correctAnswers = {
-        question1: 'a', // Змінити на правильну відповідь
-        question2: 'a', // Змінити на правильну відповідь
-    };
+        q.answers.forEach(answer => {
+            const label = document.createElement('label');
+            label.className = 'answer-option';
+            label.innerHTML = `
+                <input type="radio" name="question${index + 1}" value="${answer}" required> ${answer}
+            `;
+            questionContainer.appendChild(label);
+        });
 
-    // Підрахунок результатів
-    let score = 0;
-    const formData = new FormData(this);
-    for (let question in correctAnswers) {
-        if (formData.get(question) === correctAnswers[question]) {
-            score++;
-        }
+        questionsContainer.appendChild(questionContainer);
+    });
+
+    // Функція для вибору випадкових питань
+    function getRandomQuestions(questions, count) {
+        const shuffled = [...questions].sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, count);
     }
 
-    // Показ модального вікна
-    const modal = document.getElementById('modal');
-    const overlay = document.getElementById('overlay');
-    const modalContent = document.getElementById('modal-content');
-    
-    modalContent.textContent = `Ім'я: ${name} ${surname}\nКількість правильних відповідей: ${score}`;
-    overlay.style.display = 'block';
-    modal.style.display = 'block';
+    // Таймер
+    let timeLeft = 5 * 60; // 7 хвилин у секундах
+    const timerElement = document.getElementById('time');
+    const timerInterval = setInterval(function() {
+        const minutes = Math.floor(timeLeft / 60);
+        const seconds = timeLeft % 60;
+        timerElement.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+        timeLeft--;
+
+        if (timeLeft < 0) {
+            clearInterval(timerInterval);
+            submitQuiz();
+        }
+    }, 1000);
+
+    // Обробка відправки форми
+    document.getElementById('quizForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        submitQuiz();
+    });
+
+    function submitQuiz() {
+        // Підрахунок результатів
+        const name = document.getElementById('name').value;
+        const surname = document.getElementById('surname').value;
+
+        let score = 0;
+        selectedQuestions.forEach((q, index) => {
+            const userAnswer = document.querySelector(`input[name="question${index + 1}"]:checked`);
+            if (userAnswer && userAnswer.value === q.correct) { // Перевірка на правильну відповідь
+                score++;
+            }
+        });
+
+        // Показ результатів в модальному вікні
+        const modalContent = document.getElementById('modal-content');
+        modalContent.innerHTML = `
+            <strong><h3>${name} ${surname}</h3></strong><br>
+            Ви отримали ${score} балів з ${selectedQuestions.length}.<br>
+            <strong style="color: ${score > 12 ? 'green' : 'red'};">
+                ${score > 12 ? 'Іспит складено успішно' : 'Ви не склали іспит'}
+            </strong>
+        `;
+
+        document.getElementById('overlay').style.display = 'block';
+        document.getElementById('modal').style.display = 'block';
+    }
 
     // Закриття модального вікна
     document.getElementById('closeModal').addEventListener('click', function() {
-        overlay.style.display = 'none';
-        modal.style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+        document.getElementById('modal').style.display = 'none';
     });
 });
-  
+
+
+
+
+
+
+
+// Заборона відкриття контекстного меню
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
+
+// Заборона відкриття інструментів розробника
+document.addEventListener('keydown', function(event) {
+    // Перевірка на F12, Ctrl+Shift+I, Ctrl+Shift+C
+    if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'C'))) {
+        event.preventDefault();
+    }
+});
+
+
+
 </script>
+
+<script src="test/script.js"></script>
+
 
 
                       
