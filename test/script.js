@@ -23,7 +23,39 @@ function startTimer(duration, display) {
 }
 
 document.getElementById('quizForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+    event.preventDefault();  // Запобігаємо оновленню сторінки
 
     // Отримання даних користувача
-    const name = document.getElementById('name').
+    const name = document.getElementById('name').value;
+    const surname = document.getElementById('surname').value;
+
+    // Визначення правильних відповідей
+    const correctAnswers = {
+        question1: 'a', // Змінити на правильну відповідь
+        question2: 'a', // Змінити на правильну відповідь
+    };
+
+    // Підрахунок результатів
+    let score = 0;
+    const formData = new FormData(this);
+    for (let question in correctAnswers) {
+        if (formData.get(question) === correctAnswers[question]) {
+            score++;
+        }
+    }
+
+    // Показ модального вікна
+    const modal = document.getElementById('modal');
+    const overlay = document.getElementById('overlay');
+    const modalContent = document.getElementById('modal-content');
+    
+    modalContent.textContent = `Ім'я: ${name} ${surname}\nКількість правильних відповідей: ${score}`;
+    overlay.style.display = 'block';
+    modal.style.display = 'block';
+
+    // Закриття модального вікна
+    document.getElementById('closeModal').addEventListener('click', function() {
+        overlay.style.display = 'none';
+        modal.style.display = 'none';
+    });
+});
