@@ -14027,7 +14027,7 @@ body {
     text-align: center;
     margin: 80px calc((100vw - 100%)/-2);
     position: relative;
-    z-index: 3
+    z-index: 1;
 }
 
 @media (max-width: 1379.98px) {
