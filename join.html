@@ -2163,6 +2163,18 @@
 
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
     <script>
+
+const proxyUrl = 'https://api.allorigins.win/get?url=';
+const emailJsUrl = 'https://api.emailjs.com/api/v1.0/email/send';
+const apiUrl = `${proxyUrl}${encodeURIComponent(emailJsUrl)}`;
+
+
+
+
+
+
+
+      
 document.getElementById('feedback-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -2193,6 +2205,12 @@ document.getElementById('feedback-form').addEventListener('submit', function(eve
             console.error(err);
         });
 });
+
+
+
+
+
+
 
     </script>
 
