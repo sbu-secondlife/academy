@@ -121,8 +121,7 @@ body {
     display: flex;
     justify-content: center; /* Центрування по горизонталі */
     margin-top: -130px;
-    margin-bottom: -400px;
-    
+    margin-bottom: -590px;
 }
 
 iframe1 {
@@ -10671,6 +10670,7 @@ body {
 
 .c-footer {
     background-color: #231e1e;
+    
     font-size: 14px;
     font-weight: 700;
     position: absolute;
@@ -10754,9 +10754,19 @@ body {
 }
 
 .c-footer-social__link1 {
-    padding: 20px;
+    
     display: flex;
     color: #fff;
+    max-width: 400px;
+    font-size: 14px;
+}
+.text-mini{
+    padding-top: 5px;
+    font-size: 8px;
+    display: flex;
+    color: #fff;
+    max-width: 400px;
+
 }
 
 .c-footer-social__link:hover {
@@ -10795,7 +10805,9 @@ body {
 .c-page-sidebar {
     flex-shrink: 0;
     width: 25%;
-    padding: 140px 80px 160px
+    padding-left:40px;
+        padding-right: 40px
+    
 }
 
 @media (max-width: 1379.98px) {
@@ -10882,7 +10894,7 @@ body {
 
 @media (max-width: 767.98px) {
     .c-page-main {
-        padding-top:70px
+        
     }
 }
 
@@ -10954,6 +10966,7 @@ body {
 }
 
 .c-page-nav {
+
     font-size: 14px;
     line-height: 18px;
     z-index: 2
@@ -14066,7 +14079,7 @@ body {
 
 .c-listeners-white {
     position: relative;
-    padding-bottom: 140px
+    
 }
 
 @media (max-width: 1379.98px) {
@@ -14882,4 +14895,8 @@ body {
 
 .c-error-text p:last-child {
     margin-bottom: 0
+}
+
+.blue{
+    color: #124ed0;
 }
