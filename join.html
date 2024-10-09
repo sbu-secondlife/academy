@@ -2088,10 +2088,6 @@
 
                         <p>Вітаю, майбутній стажере! Ти знаходишся на сторінці анкетування для вступу в СБУ. Це важливий крок на шляху до професійного зростання і служби в нашій країні. Якщо ти готовий до нових викликів, прагнеш отримати нові знання та навички, які допоможуть тобі стати ефективним фахівцем у сфері безпеки, віриш, що твоя рішучість, відповідальність та бажання служити Україні дозволять тобі зробити значущий внесок у нашу спільну справу, заповнюй анкету нижче. <strong>Розгляд заявок відбувається протягом 5 робочих днів.</strong></p>
                     
-                        <div class="form-container">
-
-                         <!-- <iframe class="iframe1" src="https://docs.google.com/forms/d/e/1FAIpQLSdcchhGFgGF-6NoFGv_Mx30HRvGWn29mdXa5upmwL7JcW8qzw/viewform?embedded=true" width="640" height="3625px" frameborder="0" marginheight="0" marginwidth="0" ;>Завантаження…</iframe> -->
-
                         
 
 
@@ -2099,212 +2095,223 @@
 
 
 
+    <div class="form-container">
+        
+        <form id="feedback-form" action="https://formspree.io/f/xanywpyo" method="POST">
+            <input type="text" name="username" placeholder="Ваше ігрове ім'я" required>
+            <input type="text" name="pasport" placeholder="Ваш номер паспорту в грі" required>
+            <input type="text" name="age" placeholder="Скільки років проживаєте в області? Ваш LVL = ваші роки." required>
+            <input type="text" name="discord" placeholder="Ваш Discord" required>
 
+            <h4>Яка мова дозволена на сервері?</h4>
+            <select name="question1" required>
+                <option value="" disabled selected>Оберіть варіант</option>
+                <option value="англійська, польська, українська">англійська, польська, українська</option>
+                <option value="російська, англійська, українська">російська, англійська, українська</option>
+                <option value="польська, російська, англійська">польська, російська, англійська</option>
+                <option value="тільки англійська">тільки англійська</option>
+                <option value="тільки українська">тільки українська</option>
+                <option value="тільки російська">тільки російська</option>
+                <option value="тільки польська">тільки польська</option>
+            </select>
 
+            <h4>Кого заборонено відігрувати на сервері?</h4>
+            <select name="question2" required>
+                <option value="" disabled selected>Оберіть варіант</option>
+                <option value="тварин, рослин, відомих людей, дітей">тварин, рослин, відомих людей, дітей</option>
+                <option value="чоловіків, жінок, дітей">чоловіків, жінок, дітей</option>
+                <option value="рослин та тварин">рослин та тварин</option>
+                <option value="можна бути ким завгодно">можна бути ким завгодно</option>
+            </select>
 
+            <h4>Що таке BH?</h4>
+            <select name="question3" required>
+                <option value="" disabled selected>Оберіть варіант</option>
+                <option value="Bunny Hug">Bunny Hug</option>
+                <option value="Bunny Hope">Bunny Hope</option>
+                <option value="Boomb Hug">Boomb Hug</option>
+                <option value="Boomb Hope">Boomb Hope</option>
+            </select>
 
+            <h4>Описати своїми словами, що таке DM:</h4>
+            <textarea name="dm" placeholder="Опишіть, що таке DM" required></textarea>
 
+            <h4>Описати своїми словами, що таке MG:</h4>
+            <textarea name="mg" placeholder="Опишіть, що таке MG" required></textarea>
 
+            <h4>Як ви бачите свою роботу в СБУ?</h4>
+            <textarea name="job" placeholder="Опишіть вашу роботу в СБУ" required></textarea>
 
-    
-   <form id="feedback-form">
-        <!-- <h4>Ігрове ім'я</h4> -->
-        <input type="text" name="username" placeholder="Ваше ігрове ім'я" required>
+            
 
-        <!-- <h4>Скільки років проживаєте в області</h4> -->
-        <input type="text" name="region" placeholder="Скільки років проживаєте в області? Ваш LVL = ваші роки." required>
+            <div class="button-container">
+                <button type="submit">Відправити</button>
+            </div>
 
-        <!-- <h4>Ваш Discord</h4> -->
-        <input type="text" name="discord" placeholder="Ваш Discord" required>
-
-        <h4>Питання 1: Яка мова дозволена на сервері?</h4>
-        <select name="question1" required>
-            <option value="" disabled selected>Оберіть варіант</option>
-            <option value="англійська, польська, українська">англійська, польська, українська</option>
-            <option value="російська, англійська, українська">російська, англійська, українська</option>
-            <option value="польська, російська, англійська">польська, російська, англійська</option>
-            <option value="тільки англійська">тільки англійська</option>
-            <option value="тільки українська">тільки українська</option>
-            <option value="тільки російська">тільки російська</option>
-            <option value="тільки польська">тільки польська</option>
-        </select>
-
-        <h4>Питання 2: Кого заборонено відігрувати на сервері?</h4>
-        <select name="question2" required>
-            <option value="" disabled selected>Оберіть варіант</option>
-            <option value="тварин, рослин, відомих людей, дітей">тварин, рослин, відомих людей, дітей</option>
-            <option value="чоловіків, жінок, дітей">чоловіків, жінок, дітей</option>
-            <option value="рослин та тварин">рослин та тварин</option>
-            <option value="можна бути ким завгодно">можна бути ким завгодно</option>
-        </select>
-
-        <h4>Питання 3: Що таке BH?</h4>
-        <select name="question3" required>
-            <option value="" disabled selected>Оберіть варіант</option>
-            <option value="Bunny Hug">Bunny Hug</option>
-            <option value="Bunny Hope">Bunny Hope</option>
-            <option value="Boomb Hug">Boomb Hug</option>
-            <option value="Boomb Hope">Boomb Hope</option>
-        </select>
-
-        <h4>Описати своїми словами, що таке DM:</h4>
-        <textarea name="dm" placeholder="Опишіть, що таке DM" required></textarea>
-
-        <h4>Описати своїми словами, що таке MG:</h4>
-        <textarea name="mg" placeholder="Опишіть, що таке MG" required></textarea>
-
-        <h4>Як ви бачите свою роботу в СБУ?</h4>
-        <textarea name="job" placeholder="Опишіть вашу роботу в СБУ" required></textarea>
-
-        <div class="button-container">
-            <button type="submit">Відправити</button>
+        </form>
+    </div>
+        <!-- Модальне вікно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            
+            <h2>Дякуємо!</h2>
+            <p>Ваша заявка була успішно відправлена.</p>
+            <p>Розгляд відбувається протягом 5 робочих днів.</p>
+            <br>
+            <p><a href="/index.htm"><strong style="color: #124ed0;"><b>НА ГОЛОВНУ</b></strong></a>
         </div>
-    </form>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
-<!--     <script>
+    <script>
+        document.getElementById('feedback-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Зупинити стандартну поведінку форми
 
-const proxyUrl = 'https://api.allorigins.win/get?url=';
-const emailJsUrl = 'https://api.emailjs.com/api/v1.0/email/send';
-const apiUrl = `${proxyUrl}${encodeURIComponent(emailJsUrl)}`;
-</script> -->
+            fetch(this.action, {
+                method: this.method,
+                body: new FormData(this),
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    document.getElementById('modal').style.display = 'block'; // Відкрити модальне вікно
+                } else {
+                    alert('Виникла проблема при відправці форми.');
+                }
+            }).catch(error => {
+                alert('Виникла проблема при відправці форми.');
+            });
+        });
 
+        // Закриття модального вікна
+        document.querySelector('.close').onclick = function() {
+            document.getElementById('modal').style.display = 'none';
+            document.getElementById('feedback-form').reset(); // Очищення форми
+        };
 
-
-
-<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script type="text/javascript">
-
-document.getElementById('feedback-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    const serviceID = 'service_mas935u'; // Заміни на свій Service ID
-    const templateID = 'template_keg2pwb'; // Заміни на свій Template ID
-    const apiKey = 'p3v2m7m0HBXXgF-15'; // Заміни на свій API Key
-
-    const proxyUrl = 'https://api.allorigins.win/get?url=';
-    const emailJsUrl = 'https://api.emailjs.com/api/v1.0/email/send';
-    const apiUrl = `${proxyUrl}${encodeURIComponent(emailJsUrl)}`;
-
-    const data = {
-        username: this.username.value,
-        region: this.region.value,
-        discord: this.discord.value,
-        question1: this.question1.value,
-        question2: this.question2.value,
-        question3: this.question3.value,
-        dm: this.dm.value,
-        mg: this.mg.value,
-        job: this.job.value,
-    };
-
-    // Ініціалізація EmailJS
-    emailjs.init(apiKey);
-
-    fetch(apiUrl, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            service_id: serviceID,
-            template_id: templateID,
-            user_id: apiKey,
-            template_params: data,
-        }),
-    })
-    .then(response => {
-        if (response.ok) {
-            alert('Ваше повідомлення успішно відправлено!');
-            this.reset(); // Скинути форму
-        } else {
-            throw new Error('Не вдалося відправити ваше повідомлення.');
-        }
-    })
-    .catch(error => {
-        alert('Не вдалося відправити ваше повідомлення. Спробуйте ще раз.');
-        console.error(error);
-    });
-});
-
-
+        // Закриття модального вікна при натисканні за його межами
+        window.onclick = function(event) {
+            if (event.target === document.getElementById('modal')) {
+                document.getElementById('modal').style.display = 'none';
+                document.getElementById('feedback-form').reset(); // Очищення форми
+            }
+        };
     </script>
 
 
+<style type="text/css">
+/* Стилі для модального вікна */
+.modal {
+    display: none; /* Сховати за замовчуванням */
+    position: fixed; /* Залишити на місці */
+    z-index: 1; /* На верху */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ширина 100% */
+    height: 100%; /* Висота 100% */
+    overflow: auto; /* Додати прокрутку, якщо потрібно */
+    background-color: rgba(0, 0, 0, 0.5); /* Чорний фон з прозорістю */
+}
 
-
-
- <style>
-form {
-    
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% з верхньої частини, центр по горизонталі */
     padding: 20px;
+    border: 1px solid #888;
+    width: 500px; /* Зменшити ширину модального вікна */
+    text-align: center; /* Центрувати текст */
+    border-radius: 8px; /* Закруглені кути */
+}
+
+.modal-content h2 {
+    color: #124ed0; /* Колір заголовка */
+    margin: 0 0 10px; /* Відстань під заголовком */
+}
+
+.modal-content p {
+    color: black; /* Колір основного тексту */
+    margin: 0; /* Відсутність відстані */
+}
+
+.close {
+    color: #124ed0; /* Синій колір */
+    float: right; /* Вирівняти вправо */
+    font-size: 16px; /* Зменшити розмір тексту */
+    font-weight: bold; /* Жирний шрифт */
+    background: none; /* Без фону */
+    border: none; /* Без рамки */
+    cursor: pointer; /* Курсор-стрілка при наведенні */
+    padding: 0; /* Відсутність відстані */
+    margin: 0; /* Відсутність відстані */
+}
+
+/* Додати ефект наведенні для кнопки закриття */
+.close:hover {
+    color: #0f3f90; /* Темніший синій при наведенні */
+}
+
+
+
+.form-container {
+    
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222222;
     border-radius: 8px;
-    max-width: 600px;
-    margin: auto;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    text-align: center;
+    color: #333;
 }
 
 h4 {
-    font-size: 1.4em;
-    margin-bottom: 10px;
+    margin: 15px 0 5px;
+    font-weight: bold;
 }
 
-input[type="text"], 
-select, 
-textarea {
+input[type="text"],
+textarea,
+select {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: #000; /* Темно-сірий фон */
-    color: white; /* Білий текст для кращої видимості */
     box-sizing: border-box;
+    background-color: #2f2f2f; /* Темносірий фон */
+    color: white; /* Білий текст для контрасту */
+}
+
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
 }
 
 .button-container {
-    text-align: center; /* Центрування кнопки */
+    text-align: center;
 }
 
 button {
-    display: inline-block;
-    font-weight: 700; /* Жирний текст */
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: .75rem 1.5rem; /* Збільшено відступи */
-    font-size: 1.8rem; /* Збільшений розмір тексту */
-    line-height: 1.5;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
     border-radius: 4px;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    background-color: #007bff; 
-    color: #fff; 
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;
 }
-    </style>
 
+</style>    
 
-
-
-
-
-
-
-
-
-
-
-                    </div>
-                    
-
-                                            
-                    
+           
         </div>
                       
           </div>
