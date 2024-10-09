@@ -12591,12 +12591,12 @@ body {
 
 .c-home-appeal {
     text-align: center;
-    margin-bottom: 160px
+    
 }
 
 @media (max-width: 767.98px) {
     .c-home-appeal {
-        margin-bottom:80px
+        
     }
 }
 
